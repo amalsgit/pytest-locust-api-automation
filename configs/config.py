@@ -22,3 +22,4 @@ environments = {
 def get_environment():
     app_env = environments.get(env("app_env", "local"))
     print(f"""Tests will be run against {app_env} environment""")
+    return app_env
