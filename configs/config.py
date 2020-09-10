@@ -7,9 +7,6 @@ environments = {
     "local": {
         "host_url": "https://jsonplaceholder.typicode.com/",
     },
-    "development": {
-        "host_url": "https://jsonplaceholder.typicode.com/",
-    },
     "staging": {
         "host_url": "https://jsonplaceholder.typicode.com/",
     },
