@@ -4,5 +4,5 @@ import requests
 
 
 @allure.step("Get all posts")
-def get_posts():
-    return requests.get(api_base.host_url + "/posts")
+def get_posts(client=requests, **kwargs):
+    return api_base.get(client, "posts", **kwargs)
