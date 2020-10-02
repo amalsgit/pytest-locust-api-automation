@@ -3,3 +3,4 @@ results
 .vscode
 .pytest_cache
 *.pyc
+perf_result*
